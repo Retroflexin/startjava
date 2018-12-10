@@ -7,20 +7,20 @@ public class Cycle {
 	}
 
 	int u = 6;
-    while (u >= -6) {
+    	while (u >= -6) {
     	System.out.println (u + " ");
-    u--;
-    }
+   		u--;
+    	}
 
-    int o = 10;
-    int sum = 0;
-    do {
-     if(o % 2 != 0); {
+    	int o = 10;
+    	int sum = 0;
+    	do {
+     	if(o % 2 != 0); {
      	System.out.println(sum + o);
      	sum += o;
-     }
-    o++;
-    } while(o <= 20);
-    System.out.println(o + sum);
+     	}
+    	o++;
+    	} while(o <= 20);
+    	System.out.println(o + sum);
 	}
-}
+	}
