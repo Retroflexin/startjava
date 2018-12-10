@@ -3,12 +3,12 @@ public class Cycle {
 
 	int i = 0;
 	for (i = 0; i <= 20; i++); {
-	System.out.println (i);
+		System.out.println (i);
 	}
 
 	int u = 6;
     while (u >= -6) {
-    System.out.println (u + " ");
+    	System.out.println (u + " ");
     u--;
     }
 
