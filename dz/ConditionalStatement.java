@@ -4,40 +4,40 @@ public class ConditionalStatement {
 
 	 	int age = 21;
 	 	if (age > 20) {
-	 	System.out.println("Vi starshe, chem" + age);
+	 		System.out.println("You are older than" + age);
 	 	}
 
 	 	boolean male = true;
 	 	if (male == true) {
-	 	System.out.println("Vi muzhchina, congrats");
+	 		System.out.println("You're a man");
 	 	}
 
 	 	boolean female = true;
 	 	if (female == true) {
-	 	System.out.println("Vi zhenshina, congrats");
+	 		System.out.println("You are a woman");
 	 	}
 
-	 	float rost = 1.75f;
-	 	float rost1 = 1.85f;
+	 	float height = 1.75f;
+	 	float height1 = 1.85f;
 
-	 	if (rost < 1.80 == false) {
-	 	System.out.println("Vash rost men'she, chem 180cm");
-	 	} else if (rost1 > 1.80 == true)  {
-	 	System.out.println("Vash rost bol'she, chem 180cm");
+	 	if (height < 1.80) {
+	 		System.out.println("Your height is less than 180");
+	 	} else if (height1 > 1.80 == true)  {
+	 		System.out.println("Your height is more than 180");
 	 	}
 
-	 	char M1 = 'M';
-	 	char I1 = 'I';
-	 	char T1 = 'T';
+	 	char NameFromM = 'M';
+	 	char NameFromI = 'I';
+	 	char NameFromT = 'T';
 	 		
-	 	if (M1 == I1) {
-	 	System.out.println("Vashe imya nachinaetsya s bukvi M");
+	 	if (NameFromM == NameFromI) {
+	 		System.out.println("Your name begins with the letter M");
 	 	}
-	 	else if (I1 != M1) { 
-	 	System.out.println("Vashe imya nachinaetsya s bukvi I");
+	 	else if (NameFromI != NameFromM) { 
+	 		System.out.println("Your name begins with the letter I");
 	    }
-	 	else if (T1 == T1) { 
-	 	System.out.println("Vashe imya nachinaetsya s bukvi T");
+	 	else if (NameFromT == NameFromT) { 
+	 		System.out.println("Your name begins with the letter T");
 	    }
 
 	 	}
