@@ -35,10 +35,10 @@ public class ConditionalStatement {
 	 	}
 	 	else if (NameFromI != NameFromM) { 
 	 		System.out.println("Your name begins with the letter I");
-	    }
+	   		}
 	 	else if (NameFromT == NameFromT) { 
 	 		System.out.println("Your name begins with the letter T");
-	    }
+	    	}
 
 	 	}
 	 	}
